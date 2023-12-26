@@ -1,0 +1,14 @@
+.form {
+    display: flex;
+    flex-wrap:wrap;
+    gap: 0.5rem;
+}
+
+.bev{
+    flex: 1 0 10rem;
+}
+
+.button {
+    flex: 1 0 5rem;
+    background-color: #c0b9a5;
+}

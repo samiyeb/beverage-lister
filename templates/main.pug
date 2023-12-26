@@ -1,0 +1,11 @@
+html
+  head 
+    //- link(rel="stylesheet", type = "text/css", href="css/index.css")
+    //- script(type = "text/javascript", src = "js/index.js")
+  body 
+    form.form(action='/', method='post')
+      input.beverage(type='text', placeholder='Type your favorite beverage!', name = 'bev')
+      input.button(type='submit')
+    ul 
+      each post of posts 
+        div= post
